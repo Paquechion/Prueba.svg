@@ -16,7 +16,7 @@
 # - Set both and now the Inbox thresholds are a quarter
 variableThresholdScalars:
   site:
-    - {variableValuePattern: ".*Cicely.*", thresholdScalar: 1, cellIdPatternScope: [".*box.*"]}
+    - {variableValuePattern: ".*Cicely.*", thresholdScalar: 1.3, cellIdPatternScope: [".*box.*"]}
   environment:
     - {variableValuePattern: "prod", thresholdScalar: 0.1, cellIdPatternScope: [".*box.*"]}
 
