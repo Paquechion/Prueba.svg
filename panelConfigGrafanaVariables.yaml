@@ -18,7 +18,7 @@ variableThresholdScalars:
 #  site:
 #    - {variableValuePattern: ".*Cicely.*", thresholdScalar: 1.3, cellIdPatternScope: [".*box.*"]}
   environment:
-    - {variableValuePattern: "prod", thresholdScalar: 0.5, cellIdPatternScope: [".*box.*"]}
+    - {variableValuePattern: "P", thresholdScalar: 0.5, cellIdPatternScope: [".*box.*"]}
 
 #------------------------------------------------------------------------------
 # YAML Aliases to simplify maintenance
