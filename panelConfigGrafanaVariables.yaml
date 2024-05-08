@@ -29,8 +29,8 @@ anchorLinks:
       params: "time"
   - thresholds: &thresholds
     - {color: "semi-dark-green", level: 0}
-    - {color: "orange", level: 600}
-    - {color: "red", level: 1000}
+    - {color: "orange", level: 400}
+    - {color: "red", level: 800}
 
 #------------------------------------------------------------------------------
 # Panel Config
