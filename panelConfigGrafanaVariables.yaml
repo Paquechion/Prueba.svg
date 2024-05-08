@@ -15,8 +15,8 @@
 # - Set environment='prod'. See the threshold values (impacting color) on 'Inbox Depth' half
 # - Set both and now the Inbox thresholds are a quarter
 variableThresholdScalars:
-#  site:
-#    - {variableValuePattern: ".*Cicely.*", thresholdScalar: 1.3, cellIdPatternScope: [".*box.*"]}
+  site:
+    - {variableValuePattern: ".*site.*", thresholdScalar: 0.3, cellIdPatternScope: [".*box.*"]}
   environment:
     - {variableValuePattern: "p", thresholdScalar: 0.5, cellIdPatternScope: [".*box.*"]}
 
