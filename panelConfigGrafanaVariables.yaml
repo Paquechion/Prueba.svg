@@ -16,7 +16,7 @@
 # - Set both and now the Inbox thresholds are a quarter
 variableThresholdScalars:
   site:
-    - {variableValuePattern: ".*site.*", thresholdScalar: 2.0, cellIdPatternScope: [".*box.*"]}
+    - {variableValuePattern: ".*site.*", thresholdScalar: 0.25, cellIdPatternScope: [".*box.*"]}
   environment:
     - {variableValuePattern: "p", thresholdScalar: 0.5, cellIdPatternScope: [".*box.*"]}
 
