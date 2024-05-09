@@ -27,7 +27,7 @@ anchorLinks:
   - link: &grafana-home
       url: "https://grafana.com/"
       params: "time"
-      thresholds:
+  - thresholds:
         - {color: "blue", level: 0}
         - {color: "orange", level: 500}
         - {color: "red", level: 1000}
