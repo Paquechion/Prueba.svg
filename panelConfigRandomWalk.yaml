@@ -24,7 +24,7 @@ cells:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/README.md"
   inbox_depth:
-    dataRef: "A-series"
+    dataRef: "A_series"
     label:
       separator: "cr"
       units: "none"
@@ -59,7 +59,7 @@ cells:
         - {color: "orange", level: 50}
     link: *grafana-home
   active_workers:
-    dataRef: "A-series"
+    dataRef: "A_series"
     label:
       separator: "cr"
       units: "none"
