@@ -45,7 +45,7 @@ cells:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/README.md"
   inbox_depth:
-    dataRef: "test-data-large-cos"
+    dataRef: "Object {EndpointUrl=\"opc.tcp://fr0-vsiaas-4629:48010\", NodeId=\"ns=12;s=A350_T5_CN.CncAxisList.AX1.AxisData.aaLoad\", Quality=\"The operation succeeded. StatusGood (0x0)\", _field=\"Value\", _start=\"2024-05-08 11:26:02.324511267 +0000 UTC\", _stop=\"2024-05-09 11:26:02.324511267 +0000 UTC\", database=\"AI_CAD_AMI_RAW\", host=\"fr0-vsiaas-5711\", topic=\"AI/SP/CAD/OPCUA/data\"}"
     label:
       separator: "cr"
       units: "none"
