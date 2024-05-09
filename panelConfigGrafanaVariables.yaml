@@ -16,9 +16,9 @@
 # - Set both and now the Inbox thresholds are a quarter
 variableThresholdScalars:
   site:
-    - {variableValuePattern: ".*site.*", thresholdScalar: 0.25, cellIdPatternScope: [".*box.*"]}
+    - {variableValuePattern: ".*Cicely.*", thresholdScalar: 0.5, cellIdPatternScope: [".*box.*"]}
   environment:
-    - {variableValuePattern: "p", thresholdScalar: 0.5, cellIdPatternScope: [".*box.*"]}
+    - {variableValuePattern: "prod", thresholdScalar: 0.5, cellIdPatternScope: [".*box.*"]}
 
 #------------------------------------------------------------------------------
 # YAML Aliases to simplify maintenance
@@ -27,10 +27,10 @@ anchorLinks:
   - link: &grafana-home
       url: "https://grafana.com/"
       params: "time"
-  - thresholds:
-        - {color: "blue", level: 0}
-        - {color: "orange", level: 500}
-        - {color: "red", level: 1000}
+  - thresholds: &thresholds
+    - {color: "semi-dark-green", level: 0}
+    - {color: "orange", level: 400}
+    - {color: "red", level: 800}
 
 #------------------------------------------------------------------------------
 # Panel Config
