@@ -6,6 +6,13 @@
 #------------------------------------------------------------------------------
 # YAML Aliases to simplify maintenance
 
+variableThresholdScalars:
+  A_series:
+    - {variableValuePattern: ".*", thresholdScalar: 0.5, cellIdPatternScope: [".*box.*"]}
+  #environment:
+  #  - {variableValuePattern: "prod", thresholdScalar: 0.5, cellIdPatternScope: [".*box.*"]}
+
+
 anchorLinks:
   - link: &grafana-home
       url: "https://grafana.com/"
