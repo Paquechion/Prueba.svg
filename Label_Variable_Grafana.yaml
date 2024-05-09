@@ -16,7 +16,7 @@
 # - Set both and now the Inbox thresholds are a quarter
 variableThresholdScalars:
   site:
-    - {variableValuePattern: ".*site.*", thresholdScalar: 0.5, cellIdPatternScope: [".*box.*"]}
+    - {variableValuePattern: ".*site.*", thresholdScalar: 0.25, cellIdPatternScope: [".*box.*"]}
   environment:
     - {variableValuePattern: "p", thresholdScalar: 0.5, cellIdPatternScope: [".*box.*"]}
 
@@ -45,12 +45,11 @@ cells:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/README.md"
   inbox_depth:
-    dataRef: "Object {EndpointUrl=\"opc.tcp://fr0-vsiaas-4629:48010\", NodeId=\"ns=12;s=A350_T5_CN.CncAxisList.AX1.AxisData.aaLoad\", Quality=\"The operation succeeded. StatusGood (0x0)\", _field=\"Value\", _start=\"2024-05-08 11:26:02.324511267 +0000 UTC\", _stop=\"2024-05-09 11:26:02.324511267 +0000 UTC\", database=\"AI_CAD_AMI_RAW\", host=\"fr0-vsiaas-5711\", topic=\"AI/SP/CAD/OPCUA/data\"}"
+    dataRef: "test-data-large-cos"
     label:
       separator: "cr"
       units: "none"
       decimalPoints: 0
-      name: "Pacolll"
     labelColor:
       thresholds: *thresholds
     link: *grafana-home
