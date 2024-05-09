@@ -18,7 +18,7 @@ variableThresholdScalars:
   site:
     - {variableValuePattern: ".*site.*", thresholdScalar: 0.25, cellIdPatternScope: [".*box.*"]}
   environment:
-    - {variableValuePattern: "f", thresholdScalar: 0.5, cellIdPatternScope: [".*box.*"]}
+    - {variableValuePattern: "d", thresholdScalar: 0.5, cellIdPatternScope: [".*box.*"]}
 
 #------------------------------------------------------------------------------
 # YAML Aliases to simplify maintenance
