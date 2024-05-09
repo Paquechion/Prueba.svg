@@ -36,7 +36,7 @@ cells:
         - {color: "red", level: 100}
     link: *grafana-home
   db_transactions:
-    dataRef: "B-series"
+    dataRef: "B_series"
     label:
       separator: "cr"
       units: "ops"
@@ -48,7 +48,7 @@ cells:
         - {color: "red", level: 100}
     link: *grafana-home
   start_rate:
-    dataRef: "B-series"
+    dataRef: "B_series"
     label:
       separator: "colon"
       units: "pps"
