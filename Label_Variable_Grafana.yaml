@@ -50,6 +50,7 @@ cells:
       separator: "cr"
       units: "none"
       decimalPoints: 0
+      name: "Pacolll"
     labelColor:
       thresholds: *thresholds
     link: *grafana-home
