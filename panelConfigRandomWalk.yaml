@@ -31,7 +31,7 @@ cells:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/README.md"
   inbox_depth:
-    dataRef: "A_series"
+    dataRef: "{EndpointUrl="opc.tcp://fr0-vsiaas-4629:48010", NodeId="ns=12;s=A350_T6_CN.CncAxisList.AX1.AxisData.aaCurr", Quality="The operation succeeded. StatusGood (0x0)", database="AI_CAD_AMI_RAW", host="fr0-vsiaas-5711", topic="AI/SP/CAD/OPCUA/data"
     label:
       separator: "cr"
       units: "none"
