@@ -27,10 +27,10 @@ anchorLinks:
   - link: &grafana-home
       url: "https://grafana.com/"
       params: "time"
-  - thresholds: &thresholds
-    - {color: "green", level: 0}
-    - {color: "orange", level: 400}
-    - {color: "red", level: 800}
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "orange", level: 500}
+        - {color: "red", level: 1000}
 
 #------------------------------------------------------------------------------
 # Panel Config
