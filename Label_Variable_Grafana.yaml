@@ -60,7 +60,7 @@ cells:
       thresholds: *thresholds
     link: *grafana-home
   db_transactions:
-    #dataRef: "test-data-large-cos"
+    dataRef: "test-data-large-cos"
     label:
       separator: "cr"
       units: "ops"
