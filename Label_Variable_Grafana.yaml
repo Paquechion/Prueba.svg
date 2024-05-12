@@ -44,8 +44,8 @@ cells:
   docs:
     label:
       text: "Documentacíón Paco"
-  #  link:
-  #    url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/README.md"
+    link:
+      url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/README.md"
   inbox_depth:
     # dataRef: "test-data-large-cos"
     label:
