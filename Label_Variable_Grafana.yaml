@@ -53,7 +53,7 @@ cells:
       units: "m"
       decimalPoints: 1
       text: "Prueba Paco"
-    value: "Value Paco"
+    value: "Texto Paco"
     labelColor:
       thresholds: *thresholds
     link: *grafana-home
