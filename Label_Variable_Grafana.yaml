@@ -38,6 +38,9 @@ anchorLinks:
 gradientMode: "none"
 cellIdPreamble: "cell-"
 cells: 
+  Circulo:
+    link:
+      url: "https://app.diagrams.net/?p=svgdata"
   drawio:
     link:
       url: "https://app.diagrams.net/?p=svgdata"
