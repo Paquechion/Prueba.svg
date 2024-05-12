@@ -47,10 +47,10 @@ cells:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/README.md"
   inbox_depth:
-    # dataRef: "test-data-large-cos"
+    dataRef: "test-data-large-cos"
     label:
       separator: "cr"
-      units: "none"
+      units: "mm"
       decimalPoints: 0
       text: "Prueba Paco"
     value: "Value Paco"
