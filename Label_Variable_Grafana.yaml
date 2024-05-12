@@ -50,8 +50,8 @@ cells:
     dataRef: "test-data-large-cos"
     label:
       separator: "cr"
-      units: "mm"
-      decimalPoints: 0
+      units: "m"
+      decimalPoints: 3
       text: "Prueba Paco"
     value: "Value Paco"
     labelColor:
