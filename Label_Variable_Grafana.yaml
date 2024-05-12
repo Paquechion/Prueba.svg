@@ -51,6 +51,7 @@ cells:
       units: "none"
       decimalPoints: 0
       text: "Prueba Paco"
+    value: "Value Paco"
     labelColor:
       thresholds: *thresholds
     link: *grafana-home
