@@ -60,7 +60,7 @@ cells:
       thresholds: *thresholds
     link: *grafana-home
   db_transactions:
-    dataRef: "test-data-large-cos"
+    #dataRef: "test-data-large-cos"
     label:
       separator: "cr"
       units: "ops"
@@ -69,7 +69,7 @@ cells:
       thresholds: *thresholds
     link: *grafana-home
   start_rate:
-    dataRef: "test-data-large-cos"
+    #dataRef: "test-data-large-cos"
     label:
       separator: "colon"
       units: "pps"
@@ -78,7 +78,7 @@ cells:
       thresholds: *thresholds
     link: *grafana-home
   active_workers:
-    dataRef: "test-data-large-cos"
+    #dataRef: "test-data-large-cos"
     label:
       separator: "cr"
       units: "none"
