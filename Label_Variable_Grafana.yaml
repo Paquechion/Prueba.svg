@@ -50,7 +50,7 @@ cells:
       separator: "cr"
       units: "none"
       decimalPoints: 0
-      laber: "Prueba Paco"
+      data-label: "Prueba Paco"
     labelColor:
       thresholds: *thresholds
     link: *grafana-home
