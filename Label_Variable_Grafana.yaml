@@ -51,7 +51,7 @@ cells:
     label:
       separator: "cr"
       units: "m"
-      decimalPoints: 1
+      decimalPoints: 5
       text: "Prueba Paco"
     value: "Value Paco"
     labelColor:
