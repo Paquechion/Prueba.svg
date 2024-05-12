@@ -42,6 +42,8 @@ cells:
     link:
       url: "https://app.diagrams.net/?p=svgdata"
   docs:
+    label:
+      text: "Documentacíón Paco"
   #  link:
   #    url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/README.md"
   inbox_depth:
