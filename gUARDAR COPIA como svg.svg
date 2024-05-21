@@ -1,0 +1,75 @@
+<mxfile host="diagrams.airbus.com" modified="2024-05-21T09:01:43.259Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="5cSVhwmzNImNClvluL2q" version="22.0.0" type="google">
+  <diagram name="Page-1" id="X7cVnS4FDIuprBVAHZTi">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j5DwakJlqibevQ6SCOno-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;" parent="1" source="inbox_depth" target="active_workers" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="start rate" id="start_rate">
+          <mxCell style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="j5DwakJlqibevQ6SCOno-3" vertex="1" connectable="0">
+            <mxGeometry x="-0.2714" relative="1" as="geometry">
+              <mxPoint x="-21" y="9" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Inbox Depth" tooltip="Example tooltip for the Inbox Depth. These are defined inside the SVG. From draw.io select the widget -&gt; Edit -&gt; Edit Tooltip" id="inbox_depth">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="83" y="160" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Active Workers" id="active_workers">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="390" y="160" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Transactions" id="db_transactions">
+          <mxCell style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="610" y="140" width="80" height="100" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="la1NuNbV80vatTSqlM5q-4" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=0;flowAnimation=0;" parent="1" source="inbox_depth" target="db_transactions" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="450" as="sourcePoint" />
+            <mxPoint x="470" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="143" y="260" />
+              <mxPoint x="650" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="la1NuNbV80vatTSqlM5q-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;flowAnimation=0;curved=0;" parent="1" source="db_transactions" target="active_workers" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="450" as="sourcePoint" />
+            <mxPoint x="470" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="120" />
+              <mxPoint x="450" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object label="" id="drawio">
+          <mxCell style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=data:image/png,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;" parent="1" vertex="1">
+            <mxGeometry x="230" y="110" width="53.13" height="50" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Docs" id="docs">
+          <mxCell style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+            <mxGeometry x="310" y="110" width="60" height="50" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Inbox Depth_1" tooltip="Example tooltip for the Inbox Depth_1." id="inbox_depth_1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="83" y="270" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Inbox Depth_2" tooltip="Example tooltip for the Inbox Depth_2." id="inbox_depth_2">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="213" y="270" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
